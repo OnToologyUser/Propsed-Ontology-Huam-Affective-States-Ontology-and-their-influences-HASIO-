@@ -1,8 +1,8 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "e5c8a27:161bde2aeb3:-7fc5" "FHNOntology:SynergesticSingularSatisfier" "FHNOntology:Identity" "FHNOntology2:EntityWithSatisfiers" "FHNOntology2:FreedomSub" "FHNOntology2:NeedsWithoutSatisfiers" "FHNOntology:Exercise" "FHNOntology:ProtectBelonging" "e5c8a27:161bde2aeb3:-7ff2" "FHNOntology:ProtectFamily" "FHNOntology:Destroyer" "FHNOntology2:IdenSub" "FHNOntology:Subsistence" "FHNOntology:OutdoorActivity" "FHNOntology2:RolesWithoutSatisfiers" "FHNOntology2:CreaSub" "FHNOntology:RigorousExercise" "FHNOntology2:PartSub" "FHNOntology2:RoleWithSatisfiers" "FHNOntology:Fitness" "FHNOntology:Protection" "FHNOntology:Fundamental_Need" "FHNOntology:SpecializedFitness" "e5c8a27:161bde2aeb3:-7fdf" "FHNOntology2:EntityWithoutSatisfiers" "FHNOntology2:IdlenessSub" "http://www.ontologydesignpatterns.org/cp/owl/taskrole.owl#Role" "FHNOntology:UnderstandingAcademics" "FHNOntology:InhibitingSatisfier" "FHNOntology:Idleness" "e5c8a27:161bde2aeb3:-7fd1" "FHNOntology:Creation" "e5c8a27:161bde2aeb3:-7fc1" "FHNOntology:Being" "FHNOntology:Freedom" "FHNOntology:UnderstandingNewCulture" "FHNOntology:MentalHealth" "FHNOntology:Understanding" "FHNOntology:HealthyFood" "FHNOntology:Affection" "FHNOntology:Satisfier" "FHNOntology2:AgentWithSatisfiers" "e5c8a27:161bde2aeb3:-7fe8" "FHNOntology:UnderstandingNewLanguage" "FHNOntology:HealthNeed" "FHNOntology2:NeedWithSatisfiers" "FHNOntology:PhysicalHealth" "FHNOntology:Doing" "FHNOntology:Interacting" "FHNOntology2:AffSub" "e5c8a27:161bde2aeb3:-7fd5" "FHNOntology:ShelterNeed" "FHNOntology:CompetitorRole" "FHNOntology:Having" "FHNOntology:ProtectOneself" "FHNOntology:Sunlight" "FHNOntology:Food" "FHNOntology:Participation" "FHNOntology:ExtremelyHealthyFood" ; /*classes style*/
-	"FHNOntology:Interacting" -> "e5c8a27:161bde2aeb3:-7fc5" [ label = "rdfs:subClassOf" ];
+node [shape = rectangle, color="black"]; "6ed3a081:161bdf08c5f:-7ff2" "FHNOntology:SynergesticSingularSatisfier" "FHNOntology:Identity" "6ed3a081:161bdf08c5f:-7fd5" "FHNOntology2:EntityWithSatisfiers" "FHNOntology2:FreedomSub" "FHNOntology2:NeedsWithoutSatisfiers" "FHNOntology:Exercise" "FHNOntology:ProtectBelonging" "FHNOntology:ProtectFamily" "FHNOntology:Destroyer" "FHNOntology2:IdenSub" "FHNOntology:Subsistence" "FHNOntology:OutdoorActivity" "FHNOntology2:RolesWithoutSatisfiers" "FHNOntology2:CreaSub" "FHNOntology:RigorousExercise" "FHNOntology2:PartSub" "FHNOntology2:RoleWithSatisfiers" "FHNOntology:Fitness" "FHNOntology:Protection" "6ed3a081:161bdf08c5f:-7fc1" "FHNOntology:Fundamental_Need" "FHNOntology:SpecializedFitness" "FHNOntology2:EntityWithoutSatisfiers" "FHNOntology2:IdlenessSub" "http://www.ontologydesignpatterns.org/cp/owl/taskrole.owl#Role" "FHNOntology:UnderstandingAcademics" "FHNOntology:InhibitingSatisfier" "FHNOntology:Idleness" "FHNOntology:Creation" "FHNOntology:Being" "FHNOntology:Freedom" "FHNOntology:UnderstandingNewCulture" "FHNOntology:MentalHealth" "FHNOntology:Understanding" "FHNOntology:HealthyFood" "6ed3a081:161bdf08c5f:-7fc5" "FHNOntology:Affection" "FHNOntology:Satisfier" "6ed3a081:161bdf08c5f:-7fe8" "FHNOntology2:AgentWithSatisfiers" "6ed3a081:161bdf08c5f:-7fd1" "FHNOntology:UnderstandingNewLanguage" "FHNOntology:HealthNeed" "FHNOntology2:NeedWithSatisfiers" "FHNOntology:PhysicalHealth" "FHNOntology:Doing" "FHNOntology:Interacting" "6ed3a081:161bdf08c5f:-7fdf" "FHNOntology2:AffSub" "FHNOntology:ShelterNeed" "FHNOntology:CompetitorRole" "FHNOntology:Having" "FHNOntology:ProtectOneself" "FHNOntology:Sunlight" "FHNOntology:Food" "FHNOntology:Participation" "FHNOntology:ExtremelyHealthyFood" ; /*classes style*/
+	"FHNOntology:Interacting" -> "6ed3a081:161bdf08c5f:-7fc5" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:UnderstandingNewCulture" -> "FHNOntology:Understanding" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:PhysicalHealth" -> "FHNOntology:HealthNeed" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:Creation" -> "FHNOntology:Fundamental_Need" [ label = "rdfs:subClassOf" ];
@@ -14,11 +14,11 @@ node [shape = rectangle, color="black"]; "e5c8a27:161bde2aeb3:-7fc5" "FHNOntolog
 	"FHNOntology2:FreedomSub" -> "FHNOntology:Freedom" [ label = "rdfs:subClassOf" ];
 	"FHNOntology2:RolesWithoutSatisfiers" -> "FHNOntology2:EntityWithoutSatisfiers" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:InhibitingSatisfier" -> "FHNOntology:Satisfier" [ label = "rdfs:subClassOf" ];
-	"FHNOntology:Being" -> "e5c8a27:161bde2aeb3:-7ff2" [ label = "rdfs:subClassOf" ];
+	"FHNOntology:Being" -> "6ed3a081:161bdf08c5f:-7ff2" [ label = "rdfs:subClassOf" ];
 	"FHNOntology2:NeedWithSatisfiers" -> "FHNOntology2:EntityWithSatisfiers" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:Subsistence" -> "FHNOntology:Fundamental_Need" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:Participation" -> "FHNOntology:Fundamental_Need" [ label = "rdfs:subClassOf" ];
-	"FHNOntology:Doing" -> "e5c8a27:161bde2aeb3:-7fe8" [ label = "rdfs:subClassOf" ];
+	"FHNOntology:Doing" -> "6ed3a081:161bdf08c5f:-7fe8" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:SpecializedFitness" -> "FHNOntology:Fitness" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:ShelterNeed" -> "FHNOntology:Subsistence" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:Understanding" -> "FHNOntology:Fundamental_Need" [ label = "rdfs:subClassOf" ];
@@ -42,12 +42,12 @@ node [shape = rectangle, color="black"]; "e5c8a27:161bde2aeb3:-7fc5" "FHNOntolog
 	"FHNOntology:Freedom" -> "FHNOntology:Fundamental_Need" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:HealthNeed" -> "FHNOntology:Subsistence" [ label = "rdfs:subClassOf" ];
 	"FHNOntology2:CreaSub" -> "FHNOntology:Creation" [ label = "rdfs:subClassOf" ];
-	"FHNOntology:RigorousExercise" -> "e5c8a27:161bde2aeb3:-7fc1" [ label = "rdfs:subClassOf" ];
-	"FHNOntology:ExtremelyHealthyFood" -> "e5c8a27:161bde2aeb3:-7fdf" [ label = "rdfs:subClassOf" ];
-	"FHNOntology:Having" -> "e5c8a27:161bde2aeb3:-7fd5" [ label = "rdfs:subClassOf" ];
+	"FHNOntology:RigorousExercise" -> "6ed3a081:161bdf08c5f:-7fc1" [ label = "rdfs:subClassOf" ];
+	"FHNOntology:ExtremelyHealthyFood" -> "6ed3a081:161bdf08c5f:-7fdf" [ label = "rdfs:subClassOf" ];
+	"FHNOntology:Having" -> "6ed3a081:161bdf08c5f:-7fd5" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:Idleness" -> "FHNOntology:Fundamental_Need" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:ProtectBelonging" -> "FHNOntology:Protection" [ label = "rdfs:subClassOf" ];
 	"FHNOntology:Sunlight" -> "FHNOntology:SynergesticSingularSatisfier" [ label = "rdfs:subClassOf" ];
-	"FHNOntology:HealthyFood" -> "e5c8a27:161bde2aeb3:-7fd1" [ label = "rdfs:subClassOf" ];
+	"FHNOntology:HealthyFood" -> "6ed3a081:161bdf08c5f:-7fd1" [ label = "rdfs:subClassOf" ];
 
 }
