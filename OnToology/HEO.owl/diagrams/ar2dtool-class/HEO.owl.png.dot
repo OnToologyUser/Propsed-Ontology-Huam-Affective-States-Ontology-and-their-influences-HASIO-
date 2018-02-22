@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"NULL" -> "-58f4321e:161bde54731:-7ffb" [ label = "owl:withRestrictions" ];
+	"NULL" -> "xsd:float" [ label = "owl:onDatatype" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "-58f4321e:161bde54731:-7ff8" [ label = "rdf:first" ];
+	"NULL" -> "-58f4321e:161bde54731:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "-58f4321e:161bde54731:-7ffa" [ label = "rdf:first" ];
+	"base:Emotion" -> "owl:Thing" [ label = "base:targetedAt" ];
+	"owl:Thing" -> "-58f4321e:161bde54731:-7ffc" [ label = "base:intensity" ];
+	"base:Emotion" -> "owl:Thing" [ label = "base:triggeredBy" ];
+	"base:Emotion" -> "owl:Thing" [ label = "base:expressedThrough" ];
+	"base:Emotion" -> "owl:Thing" [ label = "base:expressedBy" ];
+
+}
